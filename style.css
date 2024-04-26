@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(1, 1, 1, 0.846);
+    color: white;
+}
+
+.main-container{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+  
+    align-items: center;
+    height: 350px;
+    gap: 35px;
+    background-color: gray;
+    height: 400px;
+    width: 400;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    
+}
+.clock-wrapper {
+    /* width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 5px solid rgb(43, 44, 98);
+    padding: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: white; */
+
+
+    width: 190px;
+    height: 300px;
+    border-radius: 50%;
+    border: 4px solid rgb(171, 144, 144);
+
+    background-color: white;
+    font-size: 16px;
+    font-weight: bold;
+    color: red;
+    cursor: pointer;
+    padding: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .btn-wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .btn-wrapper button {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 4px solid rgb(171, 144, 144);
+    background-color: rgb(89, 96, 237);
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+  margin-right: 10px;
+  }
+  
+  .btn-wrapper button:hover {
+    background-color: rgb(6, 9, 186);
+    color: white;
+  }
+  
+
+
